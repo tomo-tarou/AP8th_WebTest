@@ -47,4 +47,7 @@ elif [[ "${reply}" == "Get Password" ]]; then
   do
     read -p "入力が間違えています。Add Password/Get Password/Exit から入力してください。:" reply
   done
+# Exit が入力された場合
+elif [[ "${reply}" == "Exit" ]]; then
+  echo "Thank you!"
 fi	
